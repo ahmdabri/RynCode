@@ -88,7 +88,7 @@ export const Login: React.FC = () => {
             <Input
               label="Email"
               type="email"
-              placeholder="admin@ryncode.id"
+              placeholder="Masukkan email Anda"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
